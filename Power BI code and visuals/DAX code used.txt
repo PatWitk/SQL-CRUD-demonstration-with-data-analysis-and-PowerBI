@@ -1,0 +1,18 @@
+top_selling_product = 
+CALCULATE(
+    SELECTEDVALUE(products[product_name]),
+    TOPN(1, ALL(products[product_name]), [total_units_sold], DESC)
+)
+
+top_selling_product_category = 
+CALCULATE(
+    SELECTEDVALUE(products[category]),
+    TOPN(1, ALL(products[product_name]), [total_units_sold], DESC)
+)
+
+top_selling_product_display_card = 
+[top_selling_product] & " (" & [top_selling_product_category] & ")"
+
+total_revenue = SUM(orders_with_values[order_value]) / 100
+
+total_units_sold = SUM(orders_with_values[quantity])
