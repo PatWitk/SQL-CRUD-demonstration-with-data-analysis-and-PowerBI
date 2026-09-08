@@ -4,7 +4,7 @@ The goal of this repository is to demonstrate the full process of database creat
 
 ![alt text](<Dashboard Slicers Demonstration.gif>)
 
-Data analysis is most evident in the 'SQL data analysis.sql' file where a robust SELECT command uses a CTE, JOINs, GROUP BYs, CASE WHEN and more to calculate the spending habits of different customers and rank them into value categories.
+Data analysis is most evident in the 'SQL data analysis.sql' file where a robust SELECT command uses a CTE, JOINs, GROUP BYs, CASE WHEN and more to calculate the spending habits of different customers and rank them into value categories. The result of this SELECT command is visible as 'table_data_analysis_result.csv'
 
 # -'1 - SQL CRUD retail data Creation'-
 'CREATE' file makes tables and their relevant foreign keys. MANY products can be sold by MANY branches at different prices so a MANY - MANY table is used to establish prduct_price.
