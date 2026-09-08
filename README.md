@@ -2,7 +2,7 @@
 
 The goal of this repository is to demonstrate the full process of database creation, database extracting and then data visualising.  This is done by demonstrating every SQL CRUD operation, querying the database with robust SELECT commands and using the data to fuel an interactive Power BI dashboard. The dashboard is designed to highlight the revenue and product trends of a fictional beauty products company and its different fictional branches, 'skincare' products show a strong upward trend. 
 
-![alt text](<Dashboard Slicers Demonstration.gif>)
+<img width="800" height="450" alt="Dashboard Slicers Demonstration" src="https://github.com/user-attachments/assets/0a0904b0-c614-4d3f-9744-0211daaf9be1" />
 
 Data analysis is most evident in the 'SQL data analysis.sql' file where a robust SELECT command uses a CTE, JOINs, GROUP BYs, CASE WHEN and more to calculate the spending habits of different customers and rank them into value categories. The result of this SELECT command is visible as 'table_data_analysis_result.csv'
 
